@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+	"p2pmsg-client",
+	"p2pmsg-lib"
+]

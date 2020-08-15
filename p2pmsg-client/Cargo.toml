@@ -1,0 +1,13 @@
+[package]
+name = "p2pmsg-client"
+version = "0.1.0"
+authors = ["Ivan <ivan.zderadicka@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio ={version="0.2", features=["full"]}
+env_logger = "0.7"
+log = "0.4"
+clap ="2.33.0"
+p2pmsg-lib = {path="../p2pmsg-lib"}
+
