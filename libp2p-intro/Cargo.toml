@@ -8,11 +8,12 @@ edition = "2018"
 
 [dependencies]
 
-libp2p = {version="0.30", features=["tcp-tokio", "mdns-tokio"]}
+libp2p = {version="0.31", features=["tcp-tokio", "mdns-tokio"]}
 anyhow = "1.0"
 tokio = {version="0.3", features=["full"]}
 structopt = "0.3"
 futures = "0.3"
 env_logger = "0.8"
+log = "0.4"
 
 [workspace]
