@@ -48,7 +48,6 @@ use libp2p::{
     floodsub::{self, Floodsub, FloodsubEvent},
     // `TokioMdns` is available through the `mdns-tokio` feature.
     mdns::{TokioMdns, MdnsEvent},
-    mplex,
     yamux,
     noise,
     swarm::{NetworkBehaviourEventProcess, SwarmBuilder},
